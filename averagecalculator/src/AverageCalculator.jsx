@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
-const windowSize = 10; // Adjust the window size as needed
-
+//const windowSize = 10; // Adjust the window size as needed
 const fetchNumbers = async (numberId) => {
   try {
     const response = await fetch(`http://localhost:9876/numbers/${numberId}`);

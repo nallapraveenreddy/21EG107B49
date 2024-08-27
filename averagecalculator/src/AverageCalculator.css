@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Input and Button */
+  .number-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .number-input label {
+    margin-right: 10px;
+  }
+  
+  .number-input input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .fetch-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .fetch-button:hover {
+    background-color: #3e8e41; /* Green hover */
+  }
+  
+  /* Results Section */
+  .results {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .result-item {
+    flex: 1 0 25%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .result-item pre {
+    white-space: pre-wrap;
+    overflow-wrap: break-word; /* Allow long lines to break */
+  }
+  
+  /* Loading and Error Messages */
+  .loading, .error {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .loading {
+    color: #ccc;
+  }
+  
+  .error {
+    color: red;
+  }
